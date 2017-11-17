@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{12591C37-2ACB-488C-8BD9-633CCAE38E08}</ProjectGuid>
+    <RootNamespace>FinalYearProject</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\Keith\Documents\Visual Studio 2013\Projects\FinalYearProject\FinalYearProject\SDL\SDL-1.2.15\include;C:\Users\Keith\Documents\Visual Studio 2013\Projects\FinalYearProject\FinalYearProject\SDL\SDL_image-1.2.12\include;C:\Users\Keith\Documents\Visual Studio 2013\Projects\FinalYearProject\FinalYearProject\SDL\SDL_mixer-1.2.12\include;C:\Users\Keith\Documents\Visual Studio 2013\Projects\FinalYearProject\FinalYearProject\SDL\SDL_ttf-2.0.11\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Keith\Documents\Visual Studio 2013\Projects\FinalYearProject\FinalYearProject\SDL\SDL-1.2.15\lib\x86;C:\Users\Keith\Documents\Visual Studio 2013\Projects\FinalYearProject\FinalYearProject\SDL\SDL_ttf-2.0.11\lib\x86;C:\Users\Keith\Documents\Visual Studio 2013\Projects\FinalYearProject\FinalYearProject\SDL\SDL_mixer-1.2.12\lib\x86;C:\Users\Keith\Documents\Visual Studio 2013\Projects\FinalYearProject\FinalYearProject\SDL\SDL_image-1.2.12\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL.lib;SDLmain.lib;SDL_image.lib;SDL_mixer.lib;SDL_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Files\ball.cpp" />
+    <ClCompile Include="..\Files\block.cpp" />
+    <ClCompile Include="..\Files\game.cpp" />
+    <ClCompile Include="..\Files\heavy_block.cpp" />
+    <ClCompile Include="..\Files\level.cpp" />
+    <ClCompile Include="..\Files\level_select.cpp" />
+    <ClCompile Include="..\Files\main.cpp" />
+    <ClCompile Include="..\Files\menu.cpp" />
+    <ClCompile Include="..\Files\note_block.cpp" />
+    <ClCompile Include="..\Files\options.cpp" />
+    <ClCompile Include="..\Files\paddle.cpp" />
+    <ClCompile Include="..\Files\resource.cpp" />
+    <ClCompile Include="..\Files\standard_block.cpp" />
+    <ClCompile Include="..\Files\titan_block.cpp" />
+    <ClCompile Include="..\Files\virtuo_block.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Files\ball.h" />
+    <ClInclude Include="..\Files\block.h" />
+    <ClInclude Include="..\Files\game.h" />
+    <ClInclude Include="..\Files\heavy_block.h" />
+    <ClInclude Include="..\Files\level.h" />
+    <ClInclude Include="..\Files\level_select.h" />
+    <ClInclude Include="..\Files\menu.h" />
+    <ClInclude Include="..\Files\note_block.h" />
+    <ClInclude Include="..\Files\options.h" />
+    <ClInclude Include="..\Files\paddle.h" />
+    <ClInclude Include="..\Files\resource.h" />
+    <ClInclude Include="..\Files\standard_block.h" />
+    <ClInclude Include="..\Files\titan_block.h" />
+    <ClInclude Include="..\Files\virtuo_block.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Debug\data\BlockSprites.png" />
+    <Image Include="..\Debug\data\GameBack.png" />
+    <Image Include="..\Debug\data\GameBorder.png" />
+    <Image Include="..\Debug\data\GOBack.png" />
+    <Image Include="..\Debug\data\icon.png" />
+    <Image Include="..\Debug\data\LvlBack.png" />
+    <Image Include="..\Debug\data\medals.png" />
+    <Image Include="..\Debug\data\MenuBack.png" />
+    <Image Include="..\Debug\data\OptBack.png" />
+    <Image Include="..\Debug\data\PaddleSprites.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Debug\data\audio\1Welcome.wav" />
+    <Media Include="..\Debug\data\audio\2PlayGame.wav" />
+    <Media Include="..\Debug\data\audio\3LevelSelect.wav" />
+    <Media Include="..\Debug\data\audio\4OptionsMenu.wav" />
+    <Media Include="..\Debug\data\audio\5Instructions.wav" />
+    <Media Include="..\Debug\data\audio\6Credits.wav" />
+    <Media Include="..\Debug\data\audio\ABlock.wav" />
+    <Media Include="..\Debug\data\audio\Advance13.wav" />
+    <Media Include="..\Debug\data\audio\Advance2.wav" />
+    <Media Include="..\Debug\data\audio\applause.wav" />
+    <Media Include="..\Debug\data\audio\AString.wav" />
+    <Media Include="..\Debug\data\audio\BallReflect.wav" />
+    <Media Include="..\Debug\data\audio\BBlock.wav" />
+    <Media Include="..\Debug\data\audio\BHSis.wav" />
+    <Media Include="..\Debug\data\audio\BlockBang.wav" />
+    <Media Include="..\Debug\data\audio\BlockKick.wav" />
+    <Media Include="..\Debug\data\audio\BreakOut.wav" />
+    <Media Include="..\Debug\data\audio\BString.wav" />
+    <Media Include="..\Debug\data\audio\CBlock.wav" />
+    <Media Include="..\Debug\data\audio\Complete.wav" />
+    <Media Include="..\Debug\data\audio\CString.wav" />
+    <Media Include="..\Debug\data\audio\CurrentRulesetIs..wav" />
+    <Media Include="..\Debug\data\audio\DBlock.wav" />
+    <Media Include="..\Debug\data\audio\Down4Options.wav" />
+    <Media Include="..\Debug\data\audio\DripA.wav" />
+    <Media Include="..\Debug\data\audio\DString.wav" />
+    <Media Include="..\Debug\data\audio\EBlock.wav" />
+    <Media Include="..\Debug\data\audio\eight.wav" />
+    <Media Include="..\Debug\data\audio\eighteen.wav" />
+    <Media Include="..\Debug\data\audio\eleven.wav" />
+    <Media Include="..\Debug\data\audio\EString.wav" />
+    <Media Include="..\Debug\data\audio\FBlock.wav" />
+    <Media Include="..\Debug\data\audio\fifteen.wav" />
+    <Media Include="..\Debug\data\audio\five.wav" />
+    <Media Include="..\Debug\data\audio\four.wav" />
+    <Media Include="..\Debug\data\audio\fourteen.wav" />
+    <Media Include="..\Debug\data\audio\GBlock.wav" />
+    <Media Include="..\Debug\data\audio\High.wav" />
+    <Media Include="..\Debug\data\audio\highsc.wav" />
+    <Media Include="..\Debug\data\audio\HSpossibleV.wav" />
+    <Media Include="..\Debug\data\audio\HSpossibleVR.wav" />
+    <Media Include="..\Debug\data\audio\LDock.wav" />
+    <Media Include="..\Debug\data\audio\level..wav" />
+    <Media Include="..\Debug\data\audio\Low.wav" />
+    <Media Include="..\Debug\data\audio\mainreturn.wav" />
+    <Media Include="..\Debug\data\audio\Medium.wav" />
+    <Media Include="..\Debug\data\audio\nine.wav" />
+    <Media Include="..\Debug\data\audio\ninteen.wav" />
+    <Media Include="..\Debug\data\audio\NoteblockA.wav" />
+    <Media Include="..\Debug\data\audio\NoteblockB.wav" />
+    <Media Include="..\Debug\data\audio\NoteblockC.wav" />
+    <Media Include="..\Debug\data\audio\NoteblockD.wav" />
+    <Media Include="..\Debug\data\audio\NoteblockE.wav" />
+    <Media Include="..\Debug\data\audio\NoteblockF.wav" />
+    <Media Include="..\Debug\data\audio\NoteblockG.wav" />
+    <Media Include="..\Debug\data\audio\one.wav" />
+    <Media Include="..\Debug\data\audio\PaddleA.wav" />
+    <Media Include="..\Debug\data\audio\PaddleB.wav" />
+    <Media Include="..\Debug\data\audio\PaddleC.wav" />
+    <Media Include="..\Debug\data\audio\PaddleD.wav" />
+    <Media Include="..\Debug\data\audio\PaddleE.wav" />
+    <Media Include="..\Debug\data\audio\PaddleF.wav" />
+    <Media Include="..\Debug\data\audio\PaddleG.wav" />
+    <Media Include="..\Debug\data\audio\Paddle_Bounce.wav" />
+    <Media Include="..\Debug\data\audio\RDock.wav" />
+    <Media Include="..\Debug\data\audio\rightArroechangevals.wav" />
+    <Media Include="..\Debug\data\audio\selectBS.wav" />
+    <Media Include="..\Debug\data\audio\selectgt.wav" />
+    <Media Include="..\Debug\data\audio\selectps.wav" />
+    <Media Include="..\Debug\data\audio\seven.wav" />
+    <Media Include="..\Debug\data\audio\sevteen.wav" />
+    <Media Include="..\Debug\data\audio\sisteen.wav" />
+    <Media Include="..\Debug\data\audio\six.wav" />
+    <Media Include="..\Debug\data\audio\spacereseths.wav" />
+    <Media Include="..\Debug\data\audio\StringNoteA.wav" />
+    <Media Include="..\Debug\data\audio\StringNoteB.wav" />
+    <Media Include="..\Debug\data\audio\StringNoteC.wav" />
+    <Media Include="..\Debug\data\audio\StringNoteD.wav" />
+    <Media Include="..\Debug\data\audio\StringNoteE.wav" />
+    <Media Include="..\Debug\data\audio\StringNoteF.wav" />
+    <Media Include="..\Debug\data\audio\StringNoteG.wav" />
+    <Media Include="..\Debug\data\audio\ten.wav" />
+    <Media Include="..\Debug\data\audio\thirteen.wav" />
+    <Media Include="..\Debug\data\audio\three.wav" />
+    <Media Include="..\Debug\data\audio\twelve.wav" />
+    <Media Include="..\Debug\data\audio\twenty.wav" />
+    <Media Include="..\Debug\data\audio\two.wav" />
+    <Media Include="..\Debug\data\audio\UseSpace4Enter.wav" />
+    <Media Include="..\Debug\data\audio\UseSpace4Option.wav" />
+    <Media Include="..\Debug\data\audio\VHSis.wav" />
+    <Media Include="..\Debug\data\audio\Virtuo.wav" />
+    <Media Include="..\Debug\data\audio\VirtuoBang1.wav" />
+    <Media Include="..\Debug\data\audio\VirtuoBang2.wav" />
+    <Media Include="..\Debug\data\audio\VirtuoR.wav" />
+    <Media Include="..\Debug\data\audio\VRHSis.wav" />
+    <Media Include="..\Debug\data\audio\WallBipCL.wav" />
+    <Media Include="..\Debug\data\audio\WallBipCR.wav" />
+    <Media Include="..\Debug\data\audio\WallBipE.wav" />
+    <Media Include="..\Debug\data\audio\WallBipFL.wav" />
+    <Media Include="..\Debug\data\audio\WallBipFR.wav" />
+    <Media Include="..\Debug\data\block.wav" />
+    <Media Include="..\Debug\data\hit.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Debug\data\bestscores.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Debug\data\data-latin.ttf" />
+    <Font Include="..\Debug\data\forte.ttf" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

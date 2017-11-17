@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\data">
+      <UniqueIdentifier>{64b11a73-1970-4b8e-8579-f68591a11a44}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Files\game.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Files\ball.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Files\block.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Files\level.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Files\main.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Files\paddle.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Files\resource.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Files\menu.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Files\standard_block.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Files\heavy_block.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Files\note_block.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Files\titan_block.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Files\virtuo_block.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Files\options.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Files\level_select.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Files\ball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Files\block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Files\game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Files\level.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Files\menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Files\paddle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Files\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Files\standard_block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Files\heavy_block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Files\note_block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Files\titan_block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Files\virtuo_block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Files\options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Files\level_select.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Debug\data\GameBack.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\Debug\data\GameBorder.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\Debug\data\GOBack.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\Debug\data\icon.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\Debug\data\LvlBack.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\Debug\data\medals.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\Debug\data\MenuBack.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\Debug\data\OptBack.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\Debug\data\PaddleSprites.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\Debug\data\BlockSprites.png">
+      <Filter>Source Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Debug\data\hit.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="..\Debug\data\block.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\sevteen.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\sisteen.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\six.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\spacereseths.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\ten.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\thirteen.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\three.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\twelve.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\twenty.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\two.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\UseSpace4Enter.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\UseSpace4Option.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\VHSis.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\Virtuo.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\VirtuoBang1.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\VirtuoBang2.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\VirtuoR.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\VRHSis.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\1Welcome.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\2PlayGame.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\3LevelSelect.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\4OptionsMenu.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\5Instructions.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\6Credits.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\ABlock.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\Advance2.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\Advance13.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\applause.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\AString.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\BallReflect.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\BBlock.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\BHSis.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\BlockBang.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\BreakOut.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\BString.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\CBlock.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\Complete.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\CString.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\CurrentRulesetIs..wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\DBlock.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\Down4Options.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\DripA.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\DString.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\EBlock.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\eight.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\eighteen.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\eleven.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\EString.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\FBlock.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\fifteen.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\five.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\four.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\fourteen.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\GBlock.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\High.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\highsc.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\HSpossibleV.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\HSpossibleVR.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\LDock.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\level..wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\Low.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\mainreturn.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\Medium.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\nine.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\ninteen.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\one.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\PaddleA.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\PaddleB.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\PaddleC.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\PaddleD.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\PaddleE.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\PaddleF.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\PaddleG.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\RDock.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\rightArroechangevals.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\selectBS.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\selectgt.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\selectps.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\seven.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\StringNoteE.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\StringNoteF.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\StringNoteG.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\StringNoteA.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\StringNoteB.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\StringNoteC.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\StringNoteD.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\Paddle_Bounce.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\NoteblockC.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\NoteblockD.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\NoteblockE.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\NoteblockF.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\NoteblockG.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\NoteblockA.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\NoteblockB.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\WallBipFL.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\WallBipFR.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\WallBipCL.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\WallBipCR.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\WallBipE.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="..\Debug\data\audio\BlockKick.wav">
+      <Filter>Source Files\data</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Debug\data\bestscores.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Debug\data\data-latin.ttf">
+      <Filter>Source Files</Filter>
+    </Font>
+    <Font Include="..\Debug\data\forte.ttf">
+      <Filter>Source Files</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
